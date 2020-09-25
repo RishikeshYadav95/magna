@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apple.magna">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/magnaf2"
+        android:label="Magna"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <activity android:name=".splashsc" android:label="Magna">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".signin"
+            android:label="Magna"
+            android:sharedUserId="true">
+        </activity>
+
+        <activity
+            android:name=".MainActivity" android:label="Magna"  android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".cregister"
+            android:label="Magna"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".pladylist"
+            android:label="Magna"
+            android:theme="@style/AppTheme"
+            android:sharedUserId="true">
+        </activity>
+
+        <activity
+            android:name=".pregister"
+            android:label="Magna"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".recordpage1"
+            android:label="Magna"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".questions"
+            android:label="Magna"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".file1"
+            android:label="Magna"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".sessionrecord"
+            android:label="Magna"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name=".BackgroundWorker"
+            android:sharedUserId="true" />
+
+        <activity android:name=".manageaccount"
+            android:label="Magna"
+            android:sharedUserId="true"
+            android:theme="@style/AppTheme"/>
+
+
+
+    </application>
+
+</manifest>

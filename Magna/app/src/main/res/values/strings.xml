@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Magna</string>
+
+    <string name="underlinedText" textColor="#004466" textStyle="bold"><u>Sign In</u></string>
+
+    <string name="underlinedText2" textColor="#004466" textStyle="bold"><u>Register</u></string>
+
+    <string name="underlinedText3" textColor="#004466" textStyle="bold"><u>List of women</u></string>
+
+    <string name="underlinedText4" textColor="#004466" textStyle="bold"><u>Register a woman</u></string>
+
+    <string name="underlinedText5" textColor="#004466" textStyle="bold"><u>Details</u></string>
+
+    <string name="underlinedText6" textColor="#004466" textStyle="bold"><u>Select a woman</u></string>
+
+    <string name="underlinedText7" textColor="#004466" textStyle="bold"><u>Recorded sessions</u></string>
+
+    <string name="manageaccount" textColor="#004466" textStyle="bold"><u>Manage Account</u></string>
+    <string name="vertical_ellipsis">&#8942;</string>
+    <string name="Logout" textColor="#004466" textStyle="bold">Logout</string>
+    <string name="Manageaccount" textColor="#004466" textStyle="bold">Manage Account</string>
+</resources>

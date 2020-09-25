@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004466"
+    tools:context="com.example.apple.magna">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/magnaf2"
+        android:layout_centerVertical="true"
+        android:id="@+id/speaker" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Magna"
+        android:layout_below="@id/speaker"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textColor="#ff944d"
+        android:fontFamily="sansSerif"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

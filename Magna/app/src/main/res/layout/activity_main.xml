@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#ff944d">
+
+    <TextView
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Record"
+        android:textColor="#004466"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:fontFamily="sansSerif"
+        android:textStyle="bold"
+        android:clickable="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="|"
+        android:textSize="35sp"
+        android:layout_weight="1"
+        android:textColor="#004466"
+        android:gravity="center_vertical"
+        android:fontFamily="sansSerif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Register"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:textColor="#004466"
+        android:gravity="center_vertical"
+        android:fontFamily="sansSerif"
+        android:textStyle="bold"
+        android:clickable="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="|"
+        android:textSize="35sp"
+        android:textColor="#004466"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:fontFamily="sansSerif"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Files"
+        android:textColor="#004466"
+        android:textSize="24sp"
+        android:layout_weight="1"
+        android:fontFamily="sansSerif"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

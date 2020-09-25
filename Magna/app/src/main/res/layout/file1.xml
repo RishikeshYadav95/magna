@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cceeff"
+    tools:context="com.example.android.myapplication.Register">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/orangebar"
+        android:background="#00aaff">
+
+        <TextView
+            android:paddingLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Record"
+            android:textColor="#004466"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:fontFamily="sansSerif"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="pladylist"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="|"
+            android:textSize="35sp"
+            android:layout_weight="1"
+            android:textColor="#004466"
+            android:gravity="center_vertical"
+            android:fontFamily="sansSerif"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Register"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:textColor="#004466"
+            android:gravity="center_vertical"
+            android:fontFamily="sansSerif"
+            android:textStyle="bold"
+            android:clickable="true"
+            android:onClick="pregister"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="|"
+            android:textSize="35sp"
+            android:textColor="#004466"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:fontFamily="sansSerif"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Files"
+            android:textColor="#004466"
+            android:textSize="24sp"
+            android:layout_weight="1"
+            android:fontFamily="sansSerif"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:onClick="fileofwoman"/>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/orangebar"
+        android:id="@+id/scrollView1">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/underlinedText6"
+                android:textSize="32sp"
+                android:textColor="#004466"
+                android:fontFamily="sansSerif"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:layout_marginBottom="32dp"
+                android:layout_marginTop="8dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Sneha"
+                android:textColorHint="#004466"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textColor="#004466"
+                android:background="#80d4ff"
+                android:textSize="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:onClick="sessionrecord"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Sneha"
+                android:textColorHint="#004466"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textColor="#004466"
+                android:background="#80d4ff"
+                android:textSize="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:onClick="sessionrecord"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Sneha"
+                android:textColorHint="#004466"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textColor="#004466"
+                android:background="#80d4ff"
+                android:textSize="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:onClick="sessionrecord"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Sneha"
+                android:textColorHint="#004466"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textColor="#004466"
+                android:background="#80d4ff"
+                android:textSize="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:onClick="sessionrecord"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Sneha"
+                android:textColorHint="#004466"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textColor="#004466"
+                android:background="#80d4ff"
+                android:textSize="32dp"
+                android:layout_marginBottom="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                android:onClick="sessionrecord"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</RelativeLayout>

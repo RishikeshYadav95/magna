@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Search Widget
+    <item android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/action_search"
+        android:showAsAction="ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>-->
+
+    <!-- Location Found
+    <item android:id="@+id/action_location_found"
+        android:showAsAction="ifRoom"
+        android:title="Location"/>-->
+
+    <!-- Refresh
+    <item android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:title="@string/action_refresh"
+        android:showAsAction="ifRoom" />-->
+
+    <!-- Help
+    <item android:id="@+id/action_help"
+        android:icon="@drawable/ic_action_help"
+        android:title="@string/action_help"
+        android:showAsAction="never"/>-->
+    <item
+        android:title="@string/Manageaccount"
+        android:id="@+id/manageaccount"
+        android:showAsAction="never"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="@string/Logout"
+        android:showAsAction="never"
+        />
+
+
+
+    <!-- Check updates -->
+    <!--<item
+        android:id="@+id/a_More"
+        android:icon="@drawable/ic_action_overflow"
+        android:showAsAction="always"
+        android:title="More">
+        <menu>
+
+        </menu>
+    </item>-->
+    </menu>
+
+
